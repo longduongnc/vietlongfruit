@@ -1,0 +1,90 @@
+.fruitouter {
+  width: 100%;
+  min-height: 1000px;
+  background-color: #eff5f1;
+  background-image: url("./Images/footer__map.png");
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position: center bottom;
+  position: relative;
+  top: -180px;
+  display: flex;
+  justify-content: center;
+}
+
+.fruit-grid {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  align-items: start;
+  gap: 1rem 2rem;
+  align-content: start;
+  top: 200px;
+}
+
+.fruit-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 240px;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.fruit-card__image-container {
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.fruit-card__image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+.fruit-card__rating {
+  font-size: 0.9rem;
+  color: #f4c150;
+  margin-bottom: 0.75rem;
+}
+
+.fruit-card__name {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #2d4a2e;
+}
+
+@font-face {
+  font-family: 'Spartan';
+  src: url('/Font/SPARTAN-BOLD.TTF') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+.head_fruit_card {
+  position: relative;
+  z-index: 1000;
+}
+
+.ourproducts {
+  position: absolute;
+  left: 50vw;
+  transform: translateX(-50%);
+  font-family: 'Spartan', sans-serif;
+  font-weight: 700;
+  color: #31512a;
+  font-size: 2rem;
+}
+
+.logo-img--modified {
+  position: relative;
+  left: 820px;
+  top: -10px;
+}
+
+

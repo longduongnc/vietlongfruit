@@ -1,0 +1,63 @@
+.values-timeline {
+    padding: 4rem 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .timeline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -170px;
+  }
+  
+  .item {
+    text-align: center;
+    z-index: 1;
+  }
+  
+  .year {
+    font-size: 1.75rem;
+    color: #3A5A2F;
+    font-weight: 600;
+  }
+  
+  .dot {
+    width: 12px;
+    height: 12px;
+    border: 2px solid #3A5A2F;
+    border-radius: 50%;
+    background: #fff;
+    margin: 8px auto;
+  }
+  
+  .item.active .dot {
+    background: #75A361;
+    border-color: #75A361;
+  }
+  
+  .item.active .year,
+  .item.active .label {
+    color: #75A361;
+  }
+  
+  .label {
+    margin-top: 4px;
+    font-size: 0.875rem;
+    color: #555;
+  }
+  
+  .connector {
+    flex-grow: 1;
+    height: 2px;
+    background: #3A5A2F;
+    margin: 0 24px;
+  }
+  
+  .arrow {
+    font-size: 1.5rem;
+    margin-left: 12px;
+    color: #3A5A2F;
+  }
+  

@@ -1,0 +1,59 @@
+.header {
+    position: relative;       /* allow absolutely‑positioned children */
+    display: flex;
+    justify-content: center;  /* keep nav centered */
+    align-items: center;
+    background-color: #000;
+    padding: 1.25rem 2rem 1rem;
+    z-index: 10;
+  }
+  
+  .logo {
+    position: absolute;       /* pull logo out of the normal flow */
+    left: 2rem;               /* distance from the left edge */
+    top: 50%;
+    transform: translateY(-50%); /* vertically center inside header */
+  }
+  
+  .logo img {
+    height: 25px;
+    filter: invert(100%) brightness(200%);
+  }
+  
+  .nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .nav-link {
+    font-family: 'Spartan', sans-serif;
+    font-size: 0.75rem;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+  }
+  
+  .nav-link:hover {
+    color: #ccc;
+  }
+  
+  .nav-link.active {
+    color: #fdd062;
+  }
+
+  .search-icon {
+    position: absolute;
+    right: 2rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  
+  
+  

@@ -1,0 +1,125 @@
+/* Basic resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .footer {
+    background-color: #111;
+    color: #fff;
+    padding: 2rem 1rem;
+    font-family: "Arial", sans-serif;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap; /* allows responsive wrapping */
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin: 1rem;
+    min-width: 250px; /* helps columns not collapse too narrow on small screens */
+  }
+  
+  .footer-logo {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-section h3 {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+  }
+  
+  .footer-section p {
+    margin: 0.3rem 0;
+    line-height: 1.5;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .footer-section ul li:hover {
+    color: #ff9900;
+  }
+  
+  /* Social Connect */
+  .social-connect {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    opacity: 0.8;
+  }
+  
+  .social-icons {
+    margin-top: 0.5rem;
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    font-size: 1.2rem;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .social-icons a:hover {
+    color: #ff9900;
+  }
+  
+  /* Newsletter */
+  .newsletter {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+  
+  .newsletter input {
+    flex: 1;
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+  }
+  
+  .newsletter button {
+    background-color: #ff9900;
+    border: none;
+    padding: 0 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .newsletter button:hover {
+    background-color: #e68a00;
+  }
+  
+  /* Footer Bottom */
+  .footer-bottom {
+    border-top: 1px solid #333;
+    text-align: center;
+    padding-top: 1rem;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+  }
+  
+  .highlight {
+    color: #ff9900;
+  }
+  

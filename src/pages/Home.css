@@ -1,0 +1,143 @@
+main {
+    position: relative; /* required for z-index to apply */
+    z-index: 9;
+  }  
+
+.hero-wrapper {
+    position: relative;
+    top: -7.3125rem;
+  }
+  
+  .hero-img {
+    display: block;
+    width: 100%;
+    height: auto;       /* preserve original aspect ratio */
+    clip-path: inset(13% 0 15% 0);
+    transform: scaleX(-1);
+  }
+  
+  .hero-content {
+    position: absolute;
+    transform: translateY(-50%);
+    color: #fff;
+    top: 30.625rem;
+    left: 20.625rem;
+  }
+
+  /* 1️⃣ Load Spartan fonts */
+@font-face {
+    font-family: 'Spartan';
+    src: url('/Font/SPARTAN-SEMIBOLD.TTF') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Spartan';
+    src: url('/Font/SPARTAN-REGULAR.TTF') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  /* 2️⃣ Hero text styling */
+  .hero-content h1 {
+    font-family: 'Spartan', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    color: #ffffff;
+    margin: 0;
+  }
+  
+  .hero-content p {
+    font-family: 'Spartan', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #fdd062;
+    margin-top: 0.5rem;
+  }
+  
+  .hero-btn {
+    font-family: 'Spartan', sans-serif;
+    font-weight: 600;
+    font-size: 0.7rem;            /* equals 16px */
+    padding: 0.75rem 1.5rem;    /* equals 12px 24px */
+    border: none;
+    border-radius: 999px;
+    background-color: #fff;
+    color: #006d4b;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+  }
+  
+  .hero-btn:hover {
+    background-color: #fdd067;
+    transform: translateY(-0.25rem);
+  }
+  
+  .hero-btn:active {
+    transform: translateY(0);
+  }
+  
+  /* Responsive shrink on tablets/mobiles */
+  @media (max-width: 768px) {
+    .hero-btn {
+      font-size: 0.875rem;      /* 14px */
+      padding: 0.5rem 1rem;     /* 8px 16px */
+    }
+  }
+
+  .leaf-logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .logo-img {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    top: -22px;
+    left: -19px;
+  }
+
+  .value {
+    display: flex;
+    position: relative;
+    gap: 140px;
+    align-items: center;
+    justify-content: center;
+    top: -170px
+  }
+
+  .our-process {
+    font-family: 'Spartan', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #fdd062;
+    margin-top: 0.5rem;
+  }
+
+  .our-value {
+    font-family: 'Spartan', sans-serif;
+    font-weight: 700;
+    font-size: 2.7rem;
+    color: #31512a;
+    margin: 0;
+    position: relative;
+    top: -20px;
+  }
+
+  .introduce {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: -30px;
+  }
+
+  .timelinebg {
+    float: right;
+    position: relative;
+    top: -180px;
+    width: 40%;
+    height: 40%;
+  }
