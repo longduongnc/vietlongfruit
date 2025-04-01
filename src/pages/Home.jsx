@@ -7,11 +7,11 @@ export default function Home() {
     <main>
 
       <div className="hero-wrapper">
-        <img
-          src="/Images/Layer-0.jpg"
-          alt="Hero"
-          className="hero-img"
-        />
+      <img
+        src={`${window.location.origin}/Images/Layer-0.jpg`}
+        alt="Hero"
+        className="hero-img"
+      />
         <div className="hero-content">
           <h1>Naturally Clean,</h1>
           <p>Naturally Delicious</p>
