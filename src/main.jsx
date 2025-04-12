@@ -11,6 +11,7 @@ import ProductsPage from './pages/products/products';
 import ProductDetailPage from './pages/products/detail';
 import ContactPage from './pages/contacts/contactpage';
 import CertificatePage from './pages/certificates/certificate';
+import AboutPage from './pages/abouts/abouts';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -22,6 +23,7 @@ createRoot(document.getElementById('root')).render(
         <Route path="/product/:productName" element={<ProductDetailPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/certificate" element={<CertificatePage />} />
+        <Route path="/about" element={<AboutPage />} />
       </Routes>
       <Footer />
     </BrowserRouter>

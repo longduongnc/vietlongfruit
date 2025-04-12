@@ -1,0 +1,73 @@
+.diet-section {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.diet-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.text-content {
+  flex: 1;
+  text-align: left;
+}
+
+.text-content h2 {
+  font-size: 2.5rem;
+  color: #2e2e2e;
+  margin-bottom: 20px;
+}
+
+.paragraph-content {
+  flex: 1;
+  text-align: left;
+}
+
+.paragraph-content p {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+.diet-image {
+  margin: 40px auto;
+  max-width: 1200px;
+}
+
+.diet-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 40px auto;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.feature-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.feature-icon {
+  font-size: 2rem;
+}
+
+.feature-item span:nth-child(2) {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #2e2e2e;
+}
