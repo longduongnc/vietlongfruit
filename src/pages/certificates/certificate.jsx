@@ -4,7 +4,7 @@ import "./certificate.css";
 const CertificatePage = () => {
   return (
     <>
-      <section className="hero-section">
+      <section className="hero-section" style={{marginTop: '-200px'}}>
         <div className="hero-wrapper">
           <img
             src={`${window.location.origin}/Images/Layer-0.jpg`}
@@ -21,7 +21,7 @@ const CertificatePage = () => {
         </div>
       </section>
 
-      <div className="certificate-page">
+      <div className="certificate-page" style={{marginTop: '-450px'}}>
         <div
           className="certificate-card-container"
           style={{

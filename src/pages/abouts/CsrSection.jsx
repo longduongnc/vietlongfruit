@@ -9,9 +9,9 @@ export default function CsrSection() {
             <div className="csr-icon">Csr</div>
             <p className="csr-desc">
               We realize that our social, economic and environmental
-              responsibilities to the stakeholders are essential to our business.
-              We aim to demonstrate these responsibilities through our actions and
-              our corporate policies.
+              responsibilities to the stakeholders are essential to our
+              business. We aim to demonstrate these responsibilities through our
+              actions and our corporate policies.
             </p>
           </div>
         </div>

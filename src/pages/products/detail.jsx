@@ -36,23 +36,20 @@ export default function ProductDetailPage() {
   return (
     <main className="product-page">
       <section className="hero-section">
-        <div className="hero-wrapper">
+        <div className="hero-wrapper" style={{marginTop: '-150px'}}>
           <img
-            src={`${window.location.origin}/Images/Layer-0.jpg`}
+            src={`${window.location.origin}/Images/BG-09.jpg`}
             alt="Hero"
             className="hero-img"
           />
-          <div className="hero-content">
+          <div className="hero-content" style={{marginLeft:'-300px'}}>
             <h1 className="hero-title">Naturally Clean,</h1>
             <p className="hero-subtitle">Naturally Delicious</p>
-            <button className="hero-btn">
-              Shop Now <span className="arrow">→</span>
-            </button>
           </div>
         </div>
       </section>
 
-      <section className="product-detail-section">
+      <section className="product-detail-section" style={{marginTop: '-300px'}}>
         <div className="product-container">
           <div className="gallery-card">
             <div className="main-image-container">
