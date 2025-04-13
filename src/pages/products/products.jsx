@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import "./products.css";
 
 const products = [
   {
@@ -74,7 +75,7 @@ export default function ProductsPage() {
     <main>
       <div className="hero-wrapper">
         <img
-          src={`${window.location.origin}/Images/BG-09.jpg`}
+          src={`${window.location.origin}/Images/BG-08.jpg`}
           alt="Hero"
           className="hero-img-flipped"
         />
@@ -87,27 +88,16 @@ export default function ProductsPage() {
             textAlign: "left",
           }}
         >
-          <h1>Products</h1>
-          <div style={{ display: "flex", gap: "15px", marginTop: "20px" }}>
-            <button
-              className="hero-btn"
-              onClick={() => (window.location.href = "/")}
-            >
+          <h1 style={{ fontSize: "48px", marginBottom: "10px" }}>Products</h1>
+          <nav className="breadcrumb-nav">
+            <a href="/" className="breadcrumb-link">
               Home
-            </button>
-            <button
-              className="hero-btn"
-              onClick={() => (window.location.href = "/about")}
-            >
-              About
-            </button>
-            <button
-              className="hero-btn"
-              onClick={() => (window.location.href = "/details")}
-            >
-              Details
-            </button>
-          </div>
+            </a>
+            <span className="breadcrumb-separator">›</span>
+            <a href="/products" className="breadcrumb-link">
+              Products
+            </a>
+          </nav>
         </div>
       </div>
 

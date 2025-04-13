@@ -35,21 +35,39 @@ export default function ProductDetailPage() {
   };
   return (
     <main className="product-page">
-      <section className="hero-section">
-        <div className="hero-wrapper" style={{marginTop: '-150px'}}>
-          <img
-            src={`${window.location.origin}/Images/BG-09.jpg`}
-            alt="Hero"
-            className="hero-img"
-          />
-          <div className="hero-content" style={{marginLeft:'-300px'}}>
-            <h1 className="hero-title">Naturally Clean,</h1>
-            <p className="hero-subtitle">Naturally Delicious</p>
-          </div>
+      <div className="hero-wrapper">
+        <img
+          src={`${window.location.origin}/Images/BG-09.jpg`}
+          alt="Hero"
+          className="hero-img-flipped"
+        />
+        <div
+          className="hero-contents"
+          style={{
+            marginLeft: "-150px",
+            marginTop: "50px",
+            color: "white",
+            textAlign: "left",
+          }}
+        >
+          <h1 style={{ fontSize: "48px", marginBottom: "10px" }}>Products</h1>
+          <nav className="breadcrumb-nav">
+            <a href="/" className="breadcrumb-link">
+              Home
+            </a>
+            <span className="breadcrumb-separator">›</span>
+            <a href="/products" className="breadcrumb-link">
+              Products
+            </a>
+            <span className="breadcrumb-separator">›</span>
+            <a href="/products" className="breadcrumb-link">
+              {productName}
+            </a>
+          </nav>
         </div>
-      </section>
+      </div>
 
-      <section className="product-detail-section" style={{marginTop: '-300px'}}>
+      <section className="product-detail-section">
         <div className="product-container">
           <div className="gallery-card">
             <div className="main-image-container">
@@ -210,7 +228,12 @@ export default function ProductDetailPage() {
             <div key={i} className="product-card">
               <div className="product-image-container">
                 <img src={img} alt={name} className="product-image" />
-                <button className="quick-view-btn"  onClick={() => handleProductClick(name)}>Quick View</button>
+                <button
+                  className="quick-view-btn"
+                  onClick={() => handleProductClick(name)}
+                >
+                  Quick View
+                </button>
               </div>
               <div className="product-rating">★★★★☆</div>
               <h3 className="product-name">{name}</h3>
