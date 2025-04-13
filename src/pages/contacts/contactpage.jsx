@@ -4,18 +4,72 @@ import { FiMapPin, FiClock } from "react-icons/fi";
 
 const ContactPage = () => {
   return (
-    <div className="contact-container">
+    <>
+     <div className="hero-wrapper">
+        <img
+          src={`${window.location.origin}/Images/BG-05.jpg`}
+          alt="Hero"
+          className="hero-img-flipped"
+        />
+        <div
+          className="hero-contents"
+          style={{
+            marginLeft: "-90px",
+            marginTop: "50px",
+            color: "white",
+            textAlign: "left",
+          }}
+        >
+          <h1 style={{ fontSize: "48px", marginBottom: "10px" }}>Contact Us</h1>
+          <nav className="breadcrumb-nav">
+            <a href="/" className="breadcrumb-link">
+              Home
+            </a>
+            <span className="breadcrumb-separator">›</span>
+            <a href="/contact" className="breadcrumb-link">
+              Contact
+            </a>
+          </nav>
+        </div>
+      </div>
+    <div className="contact-container"style={{marginTop:'-150px'}}>
       <div className="contact-container">
-        <div className="contact-buttons">
-          <button className="contact-button">
-            <i className="icon">✉️</i> Email
-          </button>
-          <button className="contact-button">
-            <i className="icon">📞</i> Phone
-          </button>
-          <button className="contact-button">
-            <i className="icon">📍</i> Location
-          </button>
+        <div className="contact-cards">
+          <div className="contact-card">
+            <img
+              src="/Icons/email-icon.svg"
+              alt="Email Icon"
+              className="contact-icon"
+            />
+            <div className="contact-info">
+              <p className="contact-title">Email</p>
+              <p className="contact-text">Support@VietLongfruit.com</p>
+            </div>
+          </div>
+
+          <div className="contact-card">
+            <img
+              src="/Icons/phone-icon.svg"
+              alt="Phone Icon"
+              className="contact-icon"
+            />
+            <div className="contact-info">
+              <p className="contact-title">Phone</p>
+              <p className="contact-text">00 0566 999 34 00</p>
+            </div>
+          </div>
+
+          <div className="contact-card">
+            <img
+              src="/Icons/location-icon.svg"
+              alt="Location Icon"
+              className="contact-icon"
+            />
+            <div className="contact-info">
+              <p className="contact-title">Address</p>
+              <p className="contact-text">66 Kansas City, Missouri, USA</p>
+            </div>
+          </div>
         </div>
 
         <div className="contact-card">
@@ -27,31 +81,39 @@ const ContactPage = () => {
           </div>
 
           <div className="contact-content">
-            <div className="header-line">
-              <h1>Have any Questions?</h1>
-            </div>
-            <div className="header-line">
-              <h2>Get in Touch!</h2>
-            </div>
+  <div className="header-line">
+    <h1>Have any Questions?</h1>
+  </div>
+  <div className="header-line">
+    <h2>Get in Touch!</h2>
+  </div>
 
-            <form className="contact-form">
-              <div className="form-group">
-                <input type="text" placeholder="Your Name" />
-              </div>
-              <div className="form-group">
-                <input type="email" placeholder="Your Email" />
-              </div>
-              <div className="form-group">
-                <input type="text" placeholder="Subject" />
-              </div>
-              <div className="form-group">
-                <textarea placeholder="Your Message"></textarea>
-              </div>
-              <button type="submit" className="submit-button">
-                Send Message
-              </button>
-            </form>
-          </div>
+  <form className="contact-form">
+    <div className="form-row">
+      <div className="form-group">
+        <input type="text" placeholder="Your Name" />
+      </div>
+      <div className="form-group">
+        <input type="text" placeholder="Your Phone Number" />
+      </div>
+    </div>
+    <div className="form-row">
+      <div className="form-group">
+        <input type="email" placeholder="Your Email" />
+      </div>
+      <div className="form-group">
+        <input type="text" placeholder="Subject" />
+      </div>
+    </div>
+    <div className="form-group">
+      <textarea placeholder="Your Message"></textarea>
+    </div>
+    <button type="submit" className="submit-button">
+      Send Message
+    </button>
+  </form>
+</div>
+
         </div>
       </div>
 
@@ -116,6 +178,7 @@ const ContactPage = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

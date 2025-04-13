@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import "./products.css";
+import CustomerReviews from "./CustomerReviews";
 
 const products = [
   {
@@ -118,6 +119,7 @@ export default function ProductsPage() {
           ))}
         </div>
       </div>
+      <CustomerReviews/>
     </main>
   );
 }
