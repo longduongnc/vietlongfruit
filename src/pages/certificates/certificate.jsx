@@ -4,24 +4,22 @@ import "./certificate.css";
 const CertificatePage = () => {
   return (
     <>
-      <section className="hero-section" style={{marginTop: '-200px'}}>
-        <div className="hero-wrapper">
-          <img
-            src={`${window.location.origin}/Images/Layer-0.jpg`}
-            alt="Hero"
-            className="hero-img"
-          />
-          <div className="hero-content">
-            <h1 className="hero-title">Naturally Clean,</h1>
-            <p className="hero-subtitle">Naturally Delicious</p>
-            <button className="hero-btn">
-              Shop Now <span className="arrow">→</span>
-            </button>
-          </div>
+      <div className="hero-wrapper">
+        <img
+          src={`${window.location.origin}/Images/Layer-0.jpg`}
+          alt="Hero"
+          className="hero-img"
+        />
+        <div className="hero-content"style={{marginLeft:'-150px'}}>
+          <h1 className="hero-title">Naturally Clean,</h1>
+          <p className="hero-subtitle">Naturally Delicious</p>
+          <button className="hero-btn">
+            Shop Now <span className="arrow">→</span>
+          </button>
         </div>
-      </section>
+      </div>
 
-      <div className="certificate-page" style={{marginTop: '-450px'}}>
+      <div className="certificate-page" style={{ marginTop: "-180px" }}>
         <div
           className="certificate-card-container"
           style={{
