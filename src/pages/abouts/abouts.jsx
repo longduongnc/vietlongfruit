@@ -21,38 +21,20 @@ export default function AboutPage() {
           <button className="hero-btn">Shop Now →</button>
         </div>
       </div>
-      <div
-        className="value"
-        style={{
-          display: "flex",
-          justifyContent: "space-between",
-          alignItems: "center",
-          textAlign: "left",
-          gap: "20px" ,
-        }}
-      >
-        <div
-          className="introduce"
-          style={{
-            flex: 1,
-            justifyContent: "space-between",
-            alignItems: "center",
-          }}
-        >
+      <div className="value">
+        <div className="introduce">
           <div className="leaf-logo">
             <p className="our-process">OUR PROCESS</p>
-            <img src="/Images/Icon-17.svg" alt="Logo" className="logo-img" />
+            <img src="/Images/Icon-17.svg" alt="Logo" className="logo-img"/>
           </div>
           <p className="our-value">Our Values</p>
         </div>
-        <p className="intro-text" style={{ flex: 2 }}>
-          Welcome to Vietlongfruit, where nature’s finest fruits meet global
-          markets.
-          <br />
-          We are a premier fruit exporting company committed to delivering only
-          the
-          <br />
-          highest quality produce sourced from sustainable and innovative farms.
+        <p className="intro-text">
+        Welcome to Vietlongfruit, where nature’s finest fruits meet global markets.
+        <br/> 
+        We are a premier fruit exporting company committed to delivering only the
+        <br/> 
+        highest quality produce sourced from sustainable and innovative farms.
         </p>
       </div>
       <ValuesTimeline />
@@ -61,7 +43,7 @@ export default function AboutPage() {
         className="timelinebg"
         alt="Timeline Background"
       />
-      
+
       <CsrSection />
       <JoinOurTeam />
       <HealthyDiet />

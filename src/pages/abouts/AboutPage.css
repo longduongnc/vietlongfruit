@@ -45,29 +45,51 @@
     background-color: #4a9e6e;
   }
   
-  /* Values Section */
   .value {
-    padding: 60px 20px;
-    text-align: center;
+    display: flex;
+    position: relative;
+    gap: 140px;
+    align-items: center;
+    justify-content: center;
+    top: -170px
   }
-  
+
+  .our-process {
+    font-family: 'Spartan', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #fdd062;
+    margin-top: 0.5rem;
+  }
+
   .our-value {
-    font-size: 36px;
-    font-weight: bold;
-    margin-top: 10px;
+    font-family: 'Spartan', sans-serif;
+    font-weight: 700;
+    font-size: 2.7rem;
+    color: #31512a;
+    margin: 0;
+    position: relative;
+    top: -20px;
   }
-  
-  .intro-text {
-    max-width: 700px;
-    margin: 20px auto;
-    font-size: 16px;
-    line-height: 1.6;
+
+  .introduce {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: -30px;
+  }
+
+  .timelinebg {
+    float: right;
+    position: relative;
+    top: -180px;
+    width: 40%;
+    height: 40%;
   }
   
   /* CSR Section */
   .csr-section {
     background-color: #f3f8f4;
-    padding: 60px 20px;
     text-align: center;
   }
   
