@@ -3,15 +3,15 @@ import './CustomerReviews.css'
 export default function CustomerReviews() {
   const reviews = [
     {
-      name: 'Jane D.',
+      name: 'Hoang Dung.',
       text: 'I tried the dragon fruit and it was absolutely phenomenal! The freshness and taste were like nothing I’ve ever had before. Highly recommend!',
     },
     {
-      name: 'John S.',
+      name: 'Truong Thuy.',
       text: 'The service was amazing and the fruits were fresh and tasty!',
     },
     {
-      name: 'Alice B.',
+      name: 'Kim Hanh.',
       text: 'Loved the packaging and quick delivery. Will buy again!',
     },
   ];

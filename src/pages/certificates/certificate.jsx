@@ -78,7 +78,7 @@ const CertificatePage = () => {
               {[1, 2, 3, 4, 5, 6].map((num) => (
                 <div key={num} className="image-box">
                   <img
-                    src={`/Images/certificate-${num}.jpg`}
+                    src={`/Images/FL_20250225100520_eCertificate_-_2025-02-25T142837_923.jpg`}
                     alt={`Certificate ${num}`}
                     className="certificate-thumbnail"
                   />
