@@ -1,0 +1,199 @@
+
+  
+  .value {
+    display: flex;
+    position: relative;
+    gap: 140px;
+    align-items: center;
+    justify-content: center;
+    top: -170px
+  }
+
+  .our-process {
+    font-family: 'Spartan', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #fdd062;
+    margin-top: 0.5rem;
+  }
+
+  .our-value {
+    font-family: 'Spartan', sans-serif;
+    font-weight: 700;
+    font-size: 2.7rem;
+    color: #31512a;
+    margin: 0;
+    position: relative;
+    top: -20px;
+  }
+
+  .introduce {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: -30px;
+  }
+
+  .timelinebg {
+    float: right;
+    position: relative;
+    top: -180px;
+    width: 40%;
+    height: 40%;
+  }
+  
+  /* CSR Section */
+  .csr-section {
+    background-color: #f3f8f4;
+    text-align: center;
+  }
+  
+  .csr-icon {
+    display: inline-block;
+    background-color: #ffd700;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 15px 25px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .csr-desc {
+    max-width: 600px;
+    margin: 0 auto 40px;
+  }
+  
+  .csr-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .csr-cards .card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 220px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  }
+  
+  /* Team Section */
+  .team-section {
+    background-color: #51825c;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .team-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .team-section p {
+    max-width: 600px;
+    margin: 0 auto 30px;
+  }
+  
+  .team-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .team-cards .card {
+    background-color: white;
+    color: #333;
+    padding: 20px;
+    width: 200px;
+    border-radius: 10px;
+  }
+  
+  /* Healthy Diet Section */
+  .diet-section {
+    background-color: #fefefe;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .diet-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .diet-section .diet-image {
+    position: relative;
+    margin: 30px auto;
+    width: 400px;
+  }
+  
+  .diet-section .diet-image img {
+    width: 100%;
+    border-radius: 12px;
+  }
+  
+  .diet-section .counter {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    background-color: rgba(255,255,255,0.9);
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 8px;
+  }
+  
+  .diet-section .features {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  
+  .diet-section .features span {
+    background-color: #e6f2e8;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+  }
+  
+  /* Customer Reviews */
+  .customer-reviews {
+    background-color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .customer-reviews h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+  
+  .review {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .review img {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+  }
+  
+  .reviewer-name {
+    font-weight: bold;
+  }
+  
+  .review-text {
+    font-style: italic;
+    color: #555;
+  }
+  

@@ -1,0 +1,49 @@
+ /* Customer Reviews */
+ .customer-reviews-us {
+    background-color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .customer-reviews-us h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+  
+  .review-list-scroll {
+    max-height: 520px;
+    overflow-y: auto;
+    padding-right: 10px;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .review-us {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 12px 0;
+    width: 100%;
+    max-width: 600px;
+  
+    text-align: left;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .review-us img {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+  }
+  
+  .reviewer-us-name {
+    font-weight: bold;
+  }
+  
+  .review-us-text {
+    font-style: italic;
+    color: #555;
+  }
+  

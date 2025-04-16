@@ -3,7 +3,7 @@ import "./header.css";
 
 const pages = [
   { name: "Home", path: "/" },
-  { name: "Product", path: "/shop" },
+  { name: "Product", path: "/products" },
   { name: "Contact", path: "/contact" },
   { name: "About Us", path: "/about" },
   { name: "Certificate", path: "/certificate" },

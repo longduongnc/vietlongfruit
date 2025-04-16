@@ -1,0 +1,85 @@
+.csr-section {
+    background-color: #f3f8f4;
+    padding: 80px 20px;
+    text-align: center;
+  }
+  
+  .csr-header {
+    padding: 20px;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+  
+  .csr-flex-row {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%; 
+    gap: 20px;
+  }
+  
+  .csr-icon {
+    flex: 0 0 auto;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2e2e2e;
+  }
+  
+  .csr-desc {
+    flex: 1;
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+    text-align: left;
+  }
+  
+  .csr-cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+  
+  .csr-card {
+    background-color: white;
+    padding: 30px 25px;
+    width: 300px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    text-align: left;
+  }
+  
+  .csr-card-icon {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 15px;
+  }
+  
+  .csr-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .csr-card ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .csr-card ul li::before {
+    content: "✓ ";
+    color: #4CAF50;
+    margin-right: 8px;
+  }
+  
+  .csr-card ul li {
+    margin-bottom: 8px;
+    font-size: 15px;
+    color: #555;
+  }
+  

@@ -10,9 +10,9 @@ export default function Footer() {
         {/* Left Section */}
         <div className="footer-section footer-left">
           <h2 className="footer-logo">vietlongfruit</h2>
-          <p>166 Kansas City, Missouri, USA</p>
-          <p>CĐ 0066 99 4 000</p>
-          <p>support@vietlongfruit.com</p>
+          <p>9 Phan Ngu, Da Kao Ward, District 1</p>
+          <p>+84 86 582 7835</p>
+          <p>sales@vietlongfruit.com</p>
 
           <div className="social-connect">
             <span>SOCIAL CONNECT</span>

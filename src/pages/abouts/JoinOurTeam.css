@@ -1,0 +1,143 @@
+.team-section {
+  background-color: #2e7d32; /* Green background as in the image */
+  padding: 40px 20px;
+  color: #fff; /* White text for contrast */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.team-section::before {
+  content: "JOIN OUR TEAM";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 8rem;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.1);
+  text-align: center;
+  line-height: 1;
+  z-index: 0;
+}
+
+.team-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+  z-index: 1;
+}
+
+.team-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  gap: 40px;
+  z-index: 1;
+}
+
+.team-content p {
+  flex: 1;
+  font-size: 1rem;
+  line-height: 1.6;
+  text-align: left;
+  max-width: 500px;
+}
+
+.team-cards {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.left-card {
+  flex: 1;
+  background-color: #fff;
+  color: #333;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.left-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.right-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+
+.right-cards .card {
+  background-color: #fff;
+  color: #333;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 90px;
+}
+
+.right-cards .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card-icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .team-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .team-content p {
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .team-cards {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  .left-card,
+  .right-cards {
+    width: 80%;
+  }
+
+  .right-cards .card {
+    width: 100%;
+  }
+
+  .team-section::before {
+    font-size: 4rem;
+  }
+}

@@ -1,0 +1,73 @@
+export const productsimage = [
+  {
+    name: "Dragon Fruit",
+    price: "$5.99",
+    image: `${window.location.origin}/Images/Layer-56.jpg`,
+    description:
+      "A delicious tropical fruit with a unique look and sweet taste.",
+    season: "Summer",
+    weight: "500g - 1kg",
+    origin: "Vietnam",
+    images: [
+      `${window.location.origin}/Images/Layer-87.jpg`,
+      `${window.location.origin}/Images/Layer-88.jpg`,
+      `${window.location.origin}/Images/Layer-89.jpg`,
+    ],
+  },
+  {
+    name: "Grapefruit",
+    price: "$3.49",
+    image: `${window.location.origin}/Images/Layer-40.jpg`,
+    description: "A naturally sweet and organic banana packed with nutrients.",
+    season: "Winter",
+    weight: "400g - 900g",
+    origin: "Thailand",
+    images: [
+      `${window.location.origin}/Images/grapefruit1.jpg`,
+      `${window.location.origin}/Images/grapefruit2.jpg`,
+      `${window.location.origin}/Images/grapefruit3.jpg`,
+    ],
+  },
+  {
+    name: "Mangosteen fruit",
+    price: "$4.29",
+    image: `${window.location.origin}/Images/Layer-72.jpg`,
+    description: "A naturally sweet and organic banana packed with nutrients.",
+    season: "Winter",
+    weight: "400g - 900g",
+    origin: "Thailand",
+    images: [
+      `${window.location.origin}/Images/grapefruit1.jpg`,
+      `${window.location.origin}/Images/grapefruit2.jpg`,
+      `${window.location.origin}/Images/grapefruit3.jpg`,
+    ],
+  },
+  {
+    name: "Passion fruit",
+    price: "$6.99",
+    image: `${window.location.origin}/Images/Layer-58.jpg`,
+    description: "A naturally sweet and organic banana packed with nutrients.",
+    season: "Winter",
+    weight: "400g - 900g",
+    origin: "Thailand",
+    images: [
+      `${window.location.origin}/Images/grapefruit1.jpg`,
+      `${window.location.origin}/Images/grapefruit2.jpg`,
+      `${window.location.origin}/Images/grapefruit3.jpg`,
+    ],
+  },
+  {
+    name: "Rabutan",
+    price: "$6.99",
+    image: `${window.location.origin}/Images/Layer-87.jpg`,
+    description: "A naturally sweet and organic banana packed with nutrients.",
+    season: "Winter",
+    weight: "400g - 900g",
+    origin: "Thailand",
+    images: [
+      `${window.location.origin}/Images/Layer-87.jpg`,
+      `${window.location.origin}/Images/Layer-88.jpg`,
+      `${window.location.origin}/Images/Layer-89.jpg`,
+    ],
+  },
+];
