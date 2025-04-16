@@ -22,8 +22,8 @@ createRoot(document.getElementById('root')).render(
         <Route path="/products" element={<ProductsPage />} />
         {/* <Route path="/product/:productName" element={<ProductDetailPage />} /> */}
         <Route path="/contact" element={<ContactPage />} />
-        {/* <Route path="/certificate" element={<CertificatePage />} />
-        <Route path="/about" element={<AboutPage />} /> */}
+        <Route path="/certificate" element={<CertificatePage />} />
+        {/* <Route path="/about" element={<AboutPage />} /> */}
       </Routes>
       <Footer />
     </BrowserRouter>
