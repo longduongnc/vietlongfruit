@@ -126,12 +126,11 @@ const ContactPage = () => {
                 <h3>Visit our office or warehouse!</h3>
               </div>
               <p className="section-description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              We’re always happy to welcome you to our facility. Kindly contact us in advance to schedule your visit.
               </p>
               <div className="card-tags">
                 <button className="tag-button">
-                  <span>Get Vestimatum</span>
+                  <span>Appointment</span>
                 </button>
               </div>
             </div>
