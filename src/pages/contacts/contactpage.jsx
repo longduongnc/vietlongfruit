@@ -37,37 +37,37 @@ const ContactPage = () => {
         <div className="contact-cards">
           <div className="contact-card">
             <img
-              src="/Icons/email-icon.svg"
+              src="/Icons/Icon-40.svg"
               alt="Email Icon"
               className="contact-icon"
             />
             <div className="contact-info">
               <p className="contact-title">Email</p>
-              <p className="contact-text">Support@VietLongfruit.com</p>
+              <p className="contact-text">sales@vietlongfruit.com</p>
             </div>
           </div>
 
           <div className="contact-card">
             <img
-              src="/Icons/phone-icon.svg"
+              src="/Icons/Icon-26.svg"
               alt="Phone Icon"
               className="contact-icon"
             />
             <div className="contact-info">
               <p className="contact-title">Phone</p>
-              <p className="contact-text">00 0566 999 34 00</p>
+              <p className="contact-text">086 582 7835</p>
             </div>
           </div>
 
           <div className="contact-card">
             <img
-              src="/Icons/location-icon.svg"
+              src="/Icons/Icon-38.svg"
               alt="Location Icon"
               className="contact-icon"
             />
             <div className="contact-info">
               <p className="contact-title">Address</p>
-              <p className="contact-text">66 Kansas City, Missouri, USA</p>
+              <p className="contact-text">9 Phan Ngu, Da Kao Ward, District 1</p>
             </div>
           </div>
         </div>
