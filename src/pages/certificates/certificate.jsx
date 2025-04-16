@@ -6,7 +6,7 @@ const CertificatePage = () => {
     <>
       <div className="hero-wrapper">
         <img
-          src={`${window.location.origin}/Images/Layer-0.jpg`}
+          src={`${window.location.origin}/Images/BG-04.jpg`}
           alt="Hero"
           className="hero-img"
         />
@@ -45,12 +45,12 @@ const CertificatePage = () => {
 
               <div className="certificates-list">
                 {[
-                  "Certificate of Vaga",
-                  "Certificate of Oviga",
-                  "Certificate of Vaga",
-                  "Certificate of Ima Sala",
-                  "Kansas Registration License",
-                  "Product Testing Registration",
+                  "Certificate of Global GAP",
+                  "Incoming",
+                  "Incoming",
+                  "Incoming",
+                  "Incoming",
+                  "Incoming",
                 ].map((cert, index) => (
                   <div key={index} className="certificate-item">
                     <div className="certificate-icon">
