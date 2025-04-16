@@ -9,7 +9,7 @@ const products = [
     image: `${window.location.origin}/Images/Layer-56.jpg`,
   },
   {
-    name: "Grapefruit",
+    name: "Pomelo",
     price: "$3.49",
     image: `${window.location.origin}/Images/Layer-40.jpg`,
   },
@@ -29,39 +29,19 @@ const products = [
     image: `${window.location.origin}/Images/Layer-87.jpg`,
   },
   {
-    name: "Rabutan",
+    name: "Durian",
     price: "$6.99",
-    image: `${window.location.origin}/Images/Layer-87.jpg`,
+    image: `${window.location.origin}/Images/Layer-75.jpg`,
   },
   {
-    name: "Rabutan",
+    name: "Bell Fruit",
     price: "$6.99",
-    image: `${window.location.origin}/Images/Layer-87.jpg`,
+    image: `${window.location.origin}/Images/Layer-73.jpg`,
   },
   {
-    name: "Rabutan",
+    name: "Milk Fruit",
     price: "$6.99",
-    image: `${window.location.origin}/Images/Layer-87.jpg`,
-  },
-  {
-    name: "Rabutan",
-    price: "$6.99",
-    image: `${window.location.origin}/Images/Layer-87.jpg`,
-  },
-  {
-    name: "Rabutan",
-    price: "$6.99",
-    image: `${window.location.origin}/Images/Layer-87.jpg`,
-  },
-  {
-    name: "Rabutan",
-    price: "$6.99",
-    image: `${window.location.origin}/Images/Layer-87.jpg`,
-  },
-  {
-    name: "Rabutan",
-    price: "$6.99",
-    image: `${window.location.origin}/Images/Layer-87.jpg`,
+    image: `${window.location.origin}/Images/Layer-74.jpg`,
   },
 ];
 
